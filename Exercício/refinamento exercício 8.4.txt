@@ -1,0 +1,46 @@
+1 Refinamento: Cria um programa que calcule o perímetro e a área do retângulo. Utilize duas clasees uma para calcular e outra para testar.
+
+2 Refinamento: 
+
+  Criar um classe Rectangle com atributos length e width.
+
+  Criar um classe principal Rectangle que testar a classe Rectangle.
+
+3 Refinameto:
+
+  Classe Rectangle
+
+     Inciar às variáveis de instância como private e float.
+
+     Criar um construtor que deve iniciar ás variáveis com 1.
+
+     Criar um método areaRectangle como publico, nesse método deve ser calculado a área do retângulo.
+
+     Criar um método perimentoRectangle como publico, nesse método deve ser calculado o perimetro do retângulo.
+
+    Criar um método set para às varáveis de instância. Levando em conta que ser o valor informado for menor que 0.0 ou maior que 20.0, lança uma exerceção.
+
+    Criar um método get para às variáveis de instância.
+
+    Criar um método toString para imprimir os resultados.
+
+  Classe Principal Rectangle 
+
+     Iniciar o objeto Rectangle
+
+     Passar os valores de largura e altura através  do objeto criado, acessando os médotos set.
+
+     Imprimir o resultado através do método da classe.
+
+
+
+
+
+
+
+
+
+
+
+
+

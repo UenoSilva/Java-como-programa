@@ -1,0 +1,72 @@
+
+1º Refinamento:
+ 
+	Separando dígitos. Escreva segmentos de programa que realizem, cada um, o seguinte:
+	a) O cálculo da parte inteira do quociente quando o inteiro a é dividido pelo inteiro b.
+	b) O cálculo do módulo inteiro quando o inteiro a é dividido pelo inteiro b.
+	c) Use as partes do programa desenvolvidas em a) e b) para escrever uma função que peça um inteiro entre 1 e 32767 e o imprima como uma série de dígitos, com dois espaços entre cada dígito. Por exemplo, o inteiro 4562 deverá ser impresso como:	4 5 6 2
+	
+2º Refinamento:
+
+	Criar uma função, onde é dividido o inteiro n1 por n2 e retorna o valor;
+
+	Criar uma função que retorna o módulo do inteiro n1 dividido por n2;
+	
+	Criar um função onde recebe a função quantidade de digitos como parametro, onde será retornado um dos seguintes resultados: 1, 10, 100, 1000, 10000. Para isso uma variável será criada recebendo 1, um for de 1 ate n, onde em cada loop será multiplicado por 10 e atribuido para a variável criada;
+	
+	Criar uma função que retorna a quantidade de digitos de um número, essa função recebe como argumento n1 e retorna 1, 2, 3, 4 e 5 digitos.
+	
+	Criar um função que tem com argumento um número de 1 a 32767, utilizando um for de 1 até a função quantidade de digitos, nesse for calculo utilizo as funções divisor e modulo, passando para ambos dois números, sendo o segundo vindo da função multiplos de 10. Depois imprimir o resultado do divisor.
+	
+3º Refinamento:
+
+	Função divisor
+		Recebe dois argumentos inteiros (número e baseDez) e retorna o resultado da sua divisão.
+		
+	Função modulo
+		Recebe dois argumentos inteiros (número e baseDez) e retorna o resultado da sua divisão.
+		
+	Função baseDez
+		Recebe  um argumento inteiro (quantidadeDeDigitos).
+		Criar uma variável base que recebe 1.
+		Criar uma estrutura de repetição, one irá contar de 1 ate o parametro recebido na função.
+			A variável base recebe ela mesmo vezes 10.
+		Retorna base;
+	
+	Função quantidadeDeDigitos
+		Recebe um argumento inteiro.
+		Criar uma variável quant.
+		Utilizar estruturas de seleção.
+			Se número >= 10 || número < 100
+				quant recebe 2
+			Se número >= 100 || número < 1000
+				quant recebe 3
+			Se número >= 1000 || número < 10000
+				quant recebe 4
+			Se número >= 10000 || número < 100000
+				quant recebe 5
+		Retorna quant.
+		
+	Função separadorDeDigitos
+		Recebe um argumento inteiro.
+		
+		Criar a variável a
+		Criar a variável m
+		Criar a variável c recebe número
+		Criar a variável b recebe baseDez(quantidadeDeDigitos(number).
+		
+		print(numero)
+		
+		Criar uma estrutura de repetição de 1 até quantidadeDeDigitos
+		
+		a = divisor(c, b)
+		m = modulo(c, b)
+		
+		c = m
+		b = baseDez(m)
+		
+		
+		print(a)
+		
+		
+	

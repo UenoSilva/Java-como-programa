@@ -1,0 +1,29 @@
+1º Refinamento: Cálculos de hipotenusa. Defina uma função chamada hipotenusa que calcule o tamanho da hipotenusa de um triângulo retângulo quando os outros dois lados
+são conhecidos. Use essa função em um programa para determinar o tamanho da hipotenusa de cada um dos triângulos da tabela a seguir. A função deverá usar dois argumentos do tipo double e retornar a hipotenusa como um double.
+
+2º Refinamento:
+	Função hipotenusa
+	{
+		Recebe como argumentos dois doubles side1 e side2.
+		
+		criar a variável hipotenusa que recebe a raiz quadrada de side1 ao quadrado mais side2 ao quadrado. Assim:
+		raiz quadrada(side1 ao quadrado + side2 ao quadrado).
+		
+		retorna hipotenusa;
+	} 
+	
+	Função principal
+	{
+		Criar duas variávies side1 e side2 como double.
+		
+		imprimir uma tabela com as informações do primeiro triângulo. Assim:
+		
+		---------------------------------------
+		Triângulo 	Lado I	Lado II  Hipotenusa
+		---------------------------------------
+		1			xx		xx       xx
+	}
+
+3º Refinamento:
+
+	

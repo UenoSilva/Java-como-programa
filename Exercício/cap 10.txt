@@ -1,0 +1,20 @@
+Questões
+10.4 Como o polimorfismo permite programar “no geral” em vez de “no específico”? Discuta as vantagens cruciais da programação “no geral”.
+	R. Como no polimorfismo posso escrever objetos que compatilham um superclasse em comun como se todas fossem objetos da superclasse. Graças a esse caracteristica pode reduzir o meu código, evitando erros.
+10.5 O que são métodos abstratos? Descreva as circunstâncias em que um método abstrato seria apropriado.
+	R. Métodos abstratos são métodos que compartilham o seu desgner com as classes concretas, ou seja, esse método abstrato será comun a todas as classes que herdam essa superclasse abstrata. Se um método e comun a várias subclasses, entretanto a sua implementação muda de subclasse para subclasse, um método abstrato pode solucionar essa questão, já que métodos abstratos de classes abstratas não possuem implementação, mas são comuns para todas as classes que herdam essa superclasse abstrata.
+	
+10.6 Como o polimorfismo promove extensibilidade?
+	R. O polimorfismo promove extensibilidade: O software que invoca o comportamento polimórfico é independente dos tipos de objeto para os quais as mensagens são enviadas. Novos tipos de objetos que podem responder a chamadas de método existentes podem ser incorporados a um sistema sem exigir modificações no sistema básico. Somente o código de cliente que instancia os novos objetos deve ser modificado para, assim, acomodar os novos tipos.
+	
+10.7 Discuta três maneiras como você pode atribuir referências de superclasse e de subclasse a variáveis de superclasse e a tipos de subclasse.
+	R.
+	
+10.8 Compare e contraste classes abstratas e interfaces. Por que você utilizaria uma classe abstrata? Por que você utilizaria uma interface?
+	R. Na classe abstrata eu uso, quando minhas subclasses herdam da superclasse, assim posso implementar métodos abstratos que essas subclasses iram utilizar, onde a implementação em cada subclasse poderá ser diferente. Na interface preciso implementar todos os métodos na subclasse, mas se precisar posso implementar várias classes interface.
+	
+10.9 (Interfaces Java SE 8) Explique como métodos default permitem adicionar novos métodos a uma interface existente sem violar as classes que implementaram a interface original.
+10.10 (Interfaces Java SE 8) O que é uma interface funcional?
+	R. Interfaces funcionais são interfaces que têm um método a ser implementado, em outras palavras, um método abstrato. Isso significa que toda interface criada que respeite esta premissa, tornando-se automaticamente uma interface funcional.
+	
+10.11 (Interfaces Java SE 8) Por que é útil ser capaz de adicionar métodos static a interfaces?

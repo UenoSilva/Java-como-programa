@@ -1,0 +1,51 @@
+1º Refinamento: Criar uma classe SavingsAccount que calcula juros anuias em cima de um deposito. Depois criar uma classe para testa a classe SavingsAccount
+
+2º Refinamento:
+
+   Criar um classe SavingsAccount: Nessa classe deve ser calculado os juros mensais, com base no depósito que o usuário deve informar e criar métodos que modificam a variável static annualInterestRate.
+
+   Criar um classe principal SavingsAccountTest: Nessa classe, deve ser intanciado dois objetos saver1 e saver2, com saldos de 3000 e 2000 respectivamente. Configure a variável static com 4%, então calcule os juros anuais, imprimar os novos valores. Depis a variável static assumir 5%.
+
+3º Refinamento:
+
+   Classe SavingsAccount:
+	Criar uma variável de instancia savingsBalance como double e private.
+        Criar uma variável static annulInterestRate como double.
+
+	Criar um construtor com depisto como argumento.
+
+	Criar um método set e get para savingsBalance.
+        Criar um método set para annualInterestRate, colocar uma restrição de valores apenas acima de 1.
+
+	Criar uma método calculateMonthlyInterest que calcula os juros mensais, onde savingsBalance é multiplicado por annulInterestRate, que é divido por 12, o resultado deve ser somado a savingsBalance.
+
+       Criar um método static modifyInterestRate que modificar a taxa de juros anual. Esse método recebe como paramentro um valor double.
+
+ 	Criar um método toString para imprimir as informações da classe.
+
+
+   Criar a classe principal SavingsAccountTest:
+	Instancia o objeto SavingAccount serve1 com paramentro 3000.
+        Instancia o objeto SavingAccount
+serve2 com paramentro 2000.
+
+
+        Chamar o método modifyInterestRate de SavingAccount para alterar o valor da taxa de juros anual.
+
+        Chamar o método calculateMonthlyInterest da classe SavingsAccount para calcular o novo valor de deposito.
+
+        Chamar o método toString da classe SavingAccount para imprimir os resultados.
+
+         Realizar o mesmo procedimento, mas com juros de 5%.
+
+
+
+
+
+
+
+
+
+
+
+

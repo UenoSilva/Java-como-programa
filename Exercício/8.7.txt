@@ -1,0 +1,36 @@
+1º Refinamento: Modificar a classe Timer, onde o mesmo irá possui um método tick que incrementa a data/hora em um segundo. Um método incrementMinute irá incrementar os minuntos e o método incrementHour incrmenta a hora.
+
+2º Refinamento:
+   Classe Timer:
+	Utilizar o que foi implementado no exemplo.
+
+        Criar o método tick que incrementa o secundo em um. obs: Colocar uma condição quando o segundo for igual a 60.
+
+        Criar o método incrementMinute que incrementa o minunto em um. obs: Colacar uma condição quando o minuto for igual a 60.
+
+	Criar o método incrementHour que incrmenta a hora em um.obs: Colocar um codição quando a hora for igual a 24.
+
+
+3º Refinamento:
+
+    Classe Time2:
+
+	Utilizar o que foi implementado no exemplo.
+
+	Método tick, o secundo é incrementado em um. Caso secundo seja igual a 60, secundo rebece valor zero é o método incrementMinute é chamado.
+
+	Método incrementMinute, o minunto é incrementado em um. Caso minuto seja igual a 60, minunto recebe valor zero é o método incrementHour é chamado.
+
+	Método incrementHour, a hora é incrementada em um. Caso hora seja igual a 24, hora recebe valor zero.  
+
+
+
+
+
+
+
+
+
+
+
+
